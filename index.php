@@ -33,6 +33,12 @@
    <title>Document</title>
 </head>
 <body>
+   <div class="container">
+      <?php foreach($faqs as $faq){ ?>
+           <?= $faq['q'] ?>
+           <?= $faq['a'] ?>
+      <?php } ?>
+   </div>
    
 </body>
 </html>
