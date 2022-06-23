@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,4 +11,8 @@ body {
 .container {
     width: 960px;
     margin: auto;
+}
+
+p {
+    margin: 10px;
 }
